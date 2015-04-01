@@ -9,6 +9,9 @@
   (testing "and -> &"
     (is (= "Text & stuff." (and-to-amp "Text and stuff."))))
 
+  (testing "And -> &"
+    (is (= "Text & stuff." (and-to-amp "Text And stuff."))))
+
   (testing "definitely -> def."
     (is (= "This test def. rocks." (definitely-to-defdot "This test definitely rocks."))))
 

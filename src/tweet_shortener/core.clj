@@ -9,7 +9,7 @@
 (defn and-to-amp
   "and -> &"
   [t]
-  (str/replace t " and " " & "))
+  (str/replace t #" [Aa]nd " " & "))
 
 (defn definitely-to-defdot
   "definitely -> def."
