@@ -5,6 +5,8 @@ series of language-specific heuristics.
 
 ## Usage
 
+[![Build Status](https://travis-ci.org/colindean/tweet-shortener.svg)](https://travis-ci.org/colindean/tweet-shortener)
+
 I have no idea what I'm doing.
 
 ## License
